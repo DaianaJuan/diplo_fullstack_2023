@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Sorts+Mill+Goudy&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-image: url('./imgCoraline/encabezado2.jpg');
+    background-color: black;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menuSuperior{
+    list-style-type: none;
+    text-align: center;
+}
+
+.menuSuperior li{
+    display: inline-block;
+}
+
+.menuSuperior a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+body{
+    background-color: bisque;
+    font-family: 'Bellefair', serif;
+    font-family: 'Sorts Mill Goudy', serif;   
+}
+
+.contenido{
+    width: 70%;
+    padding: 2rem;
+    line-height: 2rem;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+/*aside*/
+
+.contenidoLibro{
+    background-color: darksalmon;
+    /*float: right;*/
+    line-height: 2rem; /*interlineado*/
+    /*width: 30%;
+    height: 10000px;*/
+    padding-top: 1rem;
+    border: solid 5px gray
+}
+.imgLibro img{
+    width: 100%;
+}
+.imgLibro{
+    
+    width: 17%;
+}
+
+
+/*personajes*/
+
+
+.imgContenido{
+    width: 20%;
+}
+
+.imgPersonajes img{
+    box-shadow: 4px 4px rgb(107, 107, 107);
+    width: 100%;
+    border-radius: 10px;
+}
+
+#piePagina{
+    background-color: black;
+    height: 15vh;
+    clear: both; /*sirve para que el footer se quede abajo*/
+    color: antiquewhite;
+}

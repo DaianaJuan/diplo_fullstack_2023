@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Coraline</title>
 </head>
 <body>
-    <header>
+    <header id="cabecera" class="encabezado">
         <nav>
-            <ul>
+            <ul class="menuSuperior">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Sobre Coraline</a></li>
-                <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="#">Video</a></li>
+                <li><a href="#sobreCoraline">Sobre Coraline</a></li>
+                <li><a href="#personajes">Personajes</a></li>
+                <li><a href="#video">Trailer</a></li>
             </ul>
 
         </nav>
     </header>
+
+<section class="contenido">
+    <div>
+        <a href="#piePagina">IR ABAJO</a>
+    </div>
+
     <h1>Coraline y la Puerta Secreta</h1>
-    <section>
+
+
+    <section id="sobreCoraline">
         <h2>Sobre Coraline</h2>
         <h3>Película</h3>
         <div>
-            <p>Coraline (<strong>Los mundos de Coraline</strong> en España, <strong>Coraline y la puerta secreta</strong> en Hispanoamérica) es 
+            <p><span>Coraline</span> (<strong>Los mundos de Coraline</strong> en España, <strong>Coraline y la puerta secreta</strong> en Hispanoamérica) es 
             una <em>película de animación stop motion estadounidense</em> escrita y dirigida por <em>Henry Selick</em>, basada 
             en la novela homónima de Neil Gaiman y estrenada por primera vez en salas de cine el 6 de febrero 
             de 2009 en Estados Unidos. Fue la primera película en ser producida por los estudios de animación 
@@ -43,33 +52,77 @@
             llegar la noche es un pasadizo que la lleva con su otra madre. ¿En qué acabará todo esto?</p>
         </div>
     </section>
-    <section>
+
+
+    <section id="personajes" class="imgPersonajes">
         <h2>Personajes</h2>
-        <div>
-            <h3>Coraline Jones</h3>
-            <h3>Mel Jones</h3>
-            <h3>Charlie Jones</h3>
-            <h3>El Gato</h3>
-            <h3>Wybie Lovat</h3>
-            <h3>Señor Bobinsky</h3>
-            <h3>April Spink y Miriam Forcible</h3>
-            <h3>El Otro Padre</h3>
-            <h3>La Otra Madre</h3>
+        
+        <h3>Coraline Jones</h3>
+        <div class="imgContenido">
+            <img src="./imgCoraline/coraline.jpg" alt="Imagen del personaje: Coraline Jones">
+        </div>
+        <h3>Mel Jones</h3>
+        <div class="imgContenido">
+            <img src="./imgCoraline/madre.jpg" alt="Imagen del personaje: Mel Jones">
+        </div>
+        <h3>Charlie Jones</h3>
+        <div class="imgContenido">
+            <img src="./imgCoraline/padre.jpg" alt="Imagen del personaje: Charlie Jones">
+        </div>
+        <h3>El Gato</h3>
+        <div class="imgContenido">
+            <img src="./imgCoraline/gato.jpg" alt="Imagen del personaje: Gato">
+        </div>
+        <h3>Wybie Lovat</h3>
+        <div class="imgContenido">
+            <img src="./imgCoraline/amigo.jpg" alt="Imagen del personaje: Wybie Lovat">
+        </div>
+        <h3>Señor Bobinsky</h3>
+        <div class="imgContenido">
+            <img src="./imgCoraline/vecino.jpg" alt="Imagen del personaje: Señor Bobinsky">
+        </div>
+        <h3>April Spink y Miriam Forcible</h3>
+        <div class="imgContenido">
+            <img src="./imgCoraline/hermanasReal.jpg" alt="Imagen del personaje: April Spink y Miriam Forcible">
+        </div>
+        <h3>El Otro Padre</h3>
+        <div class="imgContenido">
+            <img src="./imgCoraline/otroPdre.jpg" alt="Imagen del personaje: El otro padre">
+        </div>
+        <h3>La Otra Madre</h3>
+        <div class="imgContenido">
+            <img src="./imgCoraline/otraMadre.jpg" alt="Imagen del personaje: La otra madre">
         </div>
     </section>
-    <section>
-        <h2>Video</h2>
+
+
+    <section id="video">
+        <h2>Trailer</h2>
+        <div class="videoTrailer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pWUU9_H62Ys?si=7gqE8dVDLGM2cC3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     </section>
-    <aside>
+
+    </section>
+
+
+    <aside class="contenidoLibro">
         <h3>Sobre el líbro</h3>
-        <div>
+        <div class="imgLibro">
+        <img src="./imgCoraline/libro.jpg" alt="Portada del libro">
+        </div>
+        <div class="infoLibro">
             <p>Coraline es una novela de fantasía oscura escrita por el escritor británico Neil Gaiman, 
             publicada en 2002 por Bloomsbury y Harper Collins.</p>
         </div>
-
     </aside>
-    <footer>
 
+    
+    <footer id="piePagina">
+       <p>pie de pagina</p>
+       <div>
+        <a href="#cabecera">IR ARRIBA</a>
+       </div>
     </footer>
     
 </body>
