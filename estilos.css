@@ -7,6 +7,13 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+p{
+    font-size: 2rem;
+}
+
 .encabezado{
     background-image: url('./imgCoraline/encabezado2.jpg');
     background-color: black;
@@ -23,7 +30,35 @@
 
 .menuSuperior li{
     display: inline-block;
+    padding: 2rem;
 }
+
+.irAbajo a{
+    font-size: 1.2rem;
+    color: crimson;
+
+}
+
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.h2{
+    font-size: 2.5rem;
+    color: rgb(44, 54, 100);
+}
+
+.h3{
+    font-size: 2rem;
+}
+.h3personajes{
+    font-size: 1.8rem;
+}
+.contenidoLibro h3{
+    font-size: 1.5rem;
+}
+
 
 .menuSuperior a{
     text-decoration: none;
@@ -35,13 +70,14 @@
 body{
     background-color: bisque;
     font-family: 'Bellefair', serif;
-    font-family: 'Sorts Mill Goudy', serif;   
+    font-family: 'Sorts Mill Goudy', serif;  
+    
 }
 
 .contenido{
     width: 70%;
     padding: 2rem;
-    line-height: 2rem;
+    line-height: 4rem;
 }
 
 html{
@@ -84,7 +120,13 @@ html{
 
 #piePagina{
     background-color: black;
-    height: 15vh;
+    height: 20vh;
     clear: both; /*sirve para que el footer se quede abajo*/
     color: antiquewhite;
+    padding: 2rem;
+}
+
+#piePagina a{
+    color: crimson;
+    font-size: 1.2rem;
 }
