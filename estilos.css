@@ -23,9 +23,32 @@ p{
     background-size: cover;
 }
 
+.titulo{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#sobreCoraline{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#personajes{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#video{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
 .menuSuperior{
     list-style-type: none;
     text-align: center;
+   
 }
 
 .menuSuperior li{
@@ -36,6 +59,7 @@ p{
 .irAbajo a{
     font-size: 1.2rem;
     color: crimson;
+    margin: 200rem;
 
 }
 
@@ -44,13 +68,14 @@ h1{
     text-align: center;
     margin: 3rem;
     margin-bottom: 5rem;
+    text-decoration: overline;
     
 }
 
 .h2{
     font-size: 2.5rem;
     color: rgb(44, 54, 100);
-    margin: 3rem;
+    
 }
 
 .h3{
@@ -68,7 +93,7 @@ h1{
     text-decoration: none;
     color: aliceblue;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 body{
@@ -78,11 +103,12 @@ body{
     
 }
 
-.contenido{
+/*.contenido{
     width: 70%;
     padding: 2rem;
     line-height: 4rem;
 }
+*/
 
 html{
     font-size: 10px;
@@ -97,17 +123,19 @@ html{
     line-height: 2rem; /*interlineado*/
     /*width: 30%;
     height: 10000px;*/
-    padding-top: 1rem;
-    border: solid 5px gray
-}
-.imgLibro img{
-    width: 100%;
-}
-.imgLibro{
     
-    width: 17%;
 }
 
+.contenidoLibro h3{
+    font-size: 1.8rem;
+}
+.imgLibro img{
+    width: 70%;
+}
+
+.infoLibro p{
+    font-size: 1.5rem;
+}
 
 /*personajes*/
 
@@ -137,6 +165,11 @@ html{
     font-size: 1.2rem;
 }
 
+.contenido{
+    padding: 2rem;
+}
+
+
 /*posicionamiento*/
 
 .flexImg{
@@ -145,44 +178,16 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
+    text-align: center;
     
 }
-/*
-.contenedorPadre{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr; 
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-    "header header header"
-    "sobreCoraline sobreCoraline sobreCoraline"
-    "personajes personajes aside"
-    "video video aside"
-    "footer footer footer"
-     
+
+.flexVideo{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
-.grid {
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
-}
-   
 
-header{
-    grid-area: header;
-}
-section#sobreCoraline{
-    grid-area: sobreCoraline;
-}
-section#personajes{
-    grid-area: personajes;
-}
-section#video{
-    grid-area: video;
-}
-aside{
-    grid-area: aside;
-}
-footer{
-    grid-area: footer;
-}
-*/
