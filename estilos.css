@@ -26,21 +26,25 @@ p{
 .titulo{
     padding-left: 2rem;
     padding-right: 2rem;
+    
 }
 
 #sobreCoraline{
     padding-left: 2rem;
     padding-right: 2rem;
+    
 }
 
 #personajes{
     padding-left: 2rem;
     padding-right: 2rem;
+    
 }
 
 #video{
     padding-left: 2rem;
     padding-right: 2rem;
+    
 }
 
 
@@ -110,6 +114,7 @@ body{
 }
 */
 
+
 html{
     font-size: 10px;
 }
@@ -119,10 +124,10 @@ html{
 
 .contenidoLibro{
     background-color: darksalmon;
-    /*float: right;*/
+    float: right;
     line-height: 2rem; /*interlineado*/
-    /*width: 30%;
-    height: 10000px;*/
+    width: 30%;
+    
     
 }
 
@@ -190,4 +195,37 @@ html{
     align-items: baseline;
 }
 
+#grilla{
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "titulo titulo titulo titulo"
+    "sobreCoraline  sobreCoraline  sobreCoraline contenidoLibro"
+    "personajes personajes personajes contenidoLibro"
+    "video video video contenidoLibro"
+    "piePagina piePagina piePagina piePagina";
+    grid-template-rows: 30% 100% 100% 100%; 
+    grid-template-columns: 20% auto 15%;
+}
 
+header{
+    grid-area: header;
+}
+.titulo{
+    grid-area: titulo;
+}
+section#sobreCoraline{
+    grid-area: sobreCoraline;
+}
+section#personajes{
+    grid-area: personajes;
+}
+section#video{
+    grid-area: video;
+}
+.contenidoLibro{
+    grid-area: contenidoLibro;
+}
+.piePagina{
+    grid-area: piePagina;
+}
